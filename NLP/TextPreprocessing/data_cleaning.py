@@ -15,7 +15,7 @@ print(lower_sentence_list)
 #remove stop words - words that are common but do not add meaning
 en_stopwords = stopwords.words('english')
 sentence = "I want to become a master in AI engineering by the end of the year"
-no_stopwords_sentence = ' '.join([word for word in sentence.split() if word not in en_stopwords]);
+no_stopwords_sentence = ' '.join([word for word in sentence.split() if word not in en_stopwords])
 print(no_stopwords_sentence)
 
 

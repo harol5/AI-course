@@ -85,7 +85,7 @@ if __name__ == '__main__':
     print(hyp(3, 4))
     print(isEven(5))
     print(type(isPresent))
-    print(messingWithStrings('hello'))
+    print(messingWithStrings(valString="hello"))
     print(len(name))
     print(user["name"])
     loopingList(grades)
